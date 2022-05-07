@@ -1,0 +1,37 @@
+.notification {
+ border: solid 1px #efe6c7;
+ background-color: #fff8e1;
+ margin: 0 auto;
+ max-width: 95%;
+ padding: 1.5rem;
+ font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+ text-transform: capitalize;
+ font-size: 0.85rem;
+
+ .icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+  background-image: url('../../public/img/iconAlertInfo.svg');
+ }
+ h2 {
+  font-weight: 900;
+  color: var(--style-secondary);
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+ }
+ i {
+  color: red;
+ }
+ ol {
+  color: var(--style-light-gray);
+  list-style-position: inside;
+  line-height: 1.8;
+ }
+ p {
+  color: red;
+  padding: 0.5rem 0;
+ }
+}

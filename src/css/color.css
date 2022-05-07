@@ -1,0 +1,21 @@
+:root {
+ --cool-grey: #9196a0;
+ --steel: #6e8297;
+ --style-dark-gray: #4c565c;
+ --style-motor: #ef2f2f;
+ --style-white: #fff;
+ --style-primary: #d99340;
+ --style-light-gray: #818b9b;
+ --white: #dedede;
+ --slate-grey: #61676e;
+ --pale-grey: #e5e8ed;
+ --style-text-only: #494948;
+ --style-secondary: #6e9fbb;
+ --style-white-10: rgba(255, 255, 255, 0.1);
+ --slate-grey-two: #61676f;
+ --gunmetal: #50565e;
+ --white-two: #f1f1f1;
+ --tab-side: #d9d9d9;
+ --tab-inner: #bababa;
+ --tabs-inner-hover: #d9af7d;
+}
