@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Tabsbar.css';
 
 export default function Tabsbar() {
