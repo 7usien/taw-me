@@ -29,7 +29,7 @@
  margin: 0;
  li {
   list-style: none;
-  border: none;
+  border: none !important;
  }
 }
 
@@ -38,6 +38,6 @@
  column-gap: 5px;
  li {
   list-style: none;
-  border: none;
+  border: none !important;
  }
 }

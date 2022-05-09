@@ -41,7 +41,7 @@
 
 .pay ul li {
   list-style: none;
-  border: none;
+  border: none !important;
 }
 
 .social ul {
@@ -54,6 +54,6 @@
 
 .social ul li {
   list-style: none;
-  border: none;
+  border: none !important;
 }
 /*# sourceMappingURL=Footer.css.map */
