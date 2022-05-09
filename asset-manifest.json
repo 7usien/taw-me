@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/taw-me/static/css/main.293a187c.css",
-    "main.js": "/taw-me/static/js/main.290c1ecb.js",
+    "main.js": "/taw-me/static/js/main.061a6666.js",
     "static/media/gessfont-webfont.woff": "/taw-me/static/media/gessfont-webfont.f186762a1fec85032fcc.woff",
     "static/media/gessfont-webfont.woff2": "/taw-me/static/media/gessfont-webfont.a7fe72236915199b5539.woff2",
     "static/media/hdRowSub.svg": "/taw-me/static/media/hdRowSub.2ea58b3025b5e916d7af.svg",
@@ -13,10 +13,10 @@
     "index.html": "/taw-me/index.html",
     "static/media/checkbox.svg": "/taw-me/static/media/checkbox.a40c70680f84e70e6029.svg",
     "main.293a187c.css.map": "/taw-me/static/css/main.293a187c.css.map",
-    "main.290c1ecb.js.map": "/taw-me/static/js/main.290c1ecb.js.map"
+    "main.061a6666.js.map": "/taw-me/static/js/main.061a6666.js.map"
   },
   "entrypoints": [
     "static/css/main.293a187c.css",
-    "static/js/main.290c1ecb.js"
+    "static/js/main.061a6666.js"
   ]
 }
