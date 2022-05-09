@@ -38,7 +38,7 @@ export default function Footer() {
        <img src='/img/youtube.svg' alt='' />
       </li>
       <li>
-       <img src='/img/twitter.svg' alt='' />
+       <img src='/img/twitter.png' alt='' />
       </li>
       <li>
        <img src='/img/linkedIn.svg' alt='' />
