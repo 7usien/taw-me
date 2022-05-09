@@ -12,19 +12,19 @@ export default function Footer() {
     <div className='pay'>
      <ul>
       <li>
-       <img src='/img/visa.svg' alt='' />
+       <img src={process.env.PUBLIC_URL + '/img/visa.svg'} alt='' />
       </li>
       <li>
-       <img src='/img/mada.svg' alt='' />
+       <img src={process.env.PUBLIC_URL + '/img/mada.svg'} alt='' />
       </li>
       <li>
-       <img src='/img/mastercard.svg' alt='' />
+       <img src={process.env.PUBLIC_URL + '/img/mastercard.svg'} alt='' />
       </li>
       <li>
-       <img src='/img/amex.svg' alt='' />
+       <img src={process.env.PUBLIC_URL + '/img/amex.svg'} alt='' />
       </li>
       <li>
-       <img src='/img/saddad.svg' alt='' />
+       <img src={process.env.PUBLIC_URL + '/img/saddad.svg'} alt='' />
       </li>
      </ul>
     </div>
@@ -32,19 +32,19 @@ export default function Footer() {
     <div className='social'>
      <ul>
       <li>
-       <img src='/img/facebook.svg' alt='' />
+       <img src={process.env.PUBLIC_URL + '/img/facebook.svg'} alt='' />
       </li>
       <li>
-       <img src='/img/youtube.svg' alt='' />
+       <img src={process.env.PUBLIC_URL + '/img/youtube.svg'} alt='' />
       </li>
       <li>
-       <img src='/img/twitter.png' alt='' />
+       <img src={process.env.PUBLIC_URL + '/img/twitter.svg'} alt='' />
       </li>
       <li>
-       <img src='/img/linkedIn.svg' alt='' />
+       <img src={process.env.PUBLIC_URL + '/img/linkedIn.svg'} alt='' />
       </li>
       <li>
-       <img src='/img/instagram.svg' alt='' />
+       <img src={process.env.PUBLIC_URL + '/img/instagram.svg'} alt='' />
       </li>
      </ul>
     </div>

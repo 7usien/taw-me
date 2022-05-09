@@ -8,7 +8,7 @@ export default function Topbar() {
      <ul>
       <li>
        <a href='/#link'>
-        <img src='./img/logo.png' alt='' />
+        <img src={process.env.PUBLIC_URL + '/img/logo.png'} alt='' />
        </a>
       </li>
       <li>

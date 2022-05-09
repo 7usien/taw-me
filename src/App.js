@@ -20,7 +20,7 @@ function App() {
    <BrowserRouter>
     <Tabsbar />
     <Switch>
-     <Route exact path='/taw-me'>
+     <Route exact path='/'>
       <Registeration />
      </Route>
 
