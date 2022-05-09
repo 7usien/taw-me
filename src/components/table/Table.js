@@ -13,19 +13,19 @@ export default function Table() {
      name: 'Wafaa Ahmed sayed',
      id: '7387283940',
      relation: 'spouse',
-     uploaded: false,
+     uploaded: true,
     },
     {
      name: 'Mona  Ahmed Marwan Mostafa',
      id: '7387283940',
      relation: 'daguhter',
-     uploaded: false,
+     uploaded: true,
     },
     {
      name: 'Ahmed  Ahmed Marwan Mostafa',
      id: '7387283940',
      relation: 'son',
-     uploaded: false,
+     uploaded: true,
     },
    ],
   },
@@ -34,22 +34,22 @@ export default function Table() {
    name: 'Mashal Marwan Mostafa',
    id: '1234567890',
    relation: 'employee',
-   uploaded: false,
+   uploaded: true,
    family: [
     {
-     name: 'Wafaa Ahmed sayed',
+     name: 'Mona Ahmed sayed',
      id: '7387283940',
      relation: 'spouse',
-     uploaded: false,
+     uploaded: true,
     },
     {
-     name: 'Mona  Ahmed Marwan Mostafa',
+     name: 'Mona  Mashal Marwan',
      id: '7387283940',
      relation: 'daguhter',
      uploaded: false,
     },
     {
-     name: 'Ahmed  Ahmed Marwan Mostafa',
+     name: 'Ahmed  Mashal Marwan',
      id: '7387283940',
      relation: 'son',
      uploaded: false,
@@ -68,26 +68,24 @@ export default function Table() {
 
  return (
   <div className='tableContainer'>
-   <table className='m-15 form-table'>
+   <table className='form-table'>
     <thead>
      <tr>
-      <td></td>
+      <td> </td>
       <td>select</td>
       <td>name</td>
       <td>National ID / IQAMA</td>
       <td>Relationship</td>
       <td>Actions</td>
       <td>Done</td>
-      <td>-</td>
-      <td>-</td>
+      <td></td>
+      <td></td>
      </tr>
     </thead>
 
-    <tbody>
-     {employees.map((employee, index) => (
-      <Employee key={index} employee={employee}></Employee>
-     ))}
-    </tbody>
+    {employees.map((employee, index) => (
+     <Employee key={index} employee={employee}></Employee>
+    ))}
    </table>
   </div>
  );

@@ -2,10 +2,21 @@
  margin: 0 auto;
  width: 100%;
  font-family: 'lato', Arial, Helvetica, sans-serif;
- font-size: 1.1rem;
+ font-size: 0.85rem;
+
  border-collapse: collapse;
  text-transform: capitalize;
 }
+
+.form-table thead tr td {
+ min-width: 50px;
+}
+.form-table thead tr td:nth-child(1),
+.form-table tbody tr td:nth-child(1) {
+ width: 20px;
+ text-align: center;
+}
+
 .form-table thead tr td {
  background-color: var(--gunmetal);
  color: #fff;
@@ -29,6 +40,7 @@
  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
  background-color: #fff;
  cursor: pointer;
+ margin: 0 auto;
 }
 .form-checkbox input[type='checkbox']:hover {
  background-color: var(--style-primary);
@@ -38,4 +50,81 @@
 .form-checkbox input[type='checkbox']:checked {
  background-color: var(--style-primary);
  background-image: url('../../../public/img/checkbox.svg');
+}
+
+td .collapse {
+ display: block;
+ width: 20px;
+ height: 20px;
+ background-image: url('../../../public/img/collapse.svg');
+ text-align: center;
+ cursor: pointer;
+ transition: all 0.2s;
+ margin: 0 auto;
+}
+td .collapse:hover {
+ transform: rotate(180deg) scale(1.1);
+}
+
+.subFamily {
+ background-color: var(--gunmetal);
+}
+
+.fileLabel {
+ position: relative;
+}
+.hint {
+ font-size: 0.7rem;
+ position: absolute;
+ display: inline;
+ bottom: 0px;
+ left: 120px;
+}
+input [type='file'] {
+ color: transparent;
+}
+
+.subSelect {
+ display: block;
+ width: 20px;
+ height: 20px;
+ background-image: url('../../../public/img/hdRowSub.svg');
+ text-align: center;
+ cursor: pointer;
+}
+
+span.done {
+ display: block;
+ width: 32px;
+ height: 32px;
+ background-image: url('../../../public/img/hdMrDone.svg');
+ text-align: center;
+ cursor: pointer;
+}
+
+span.no {
+ display: block;
+ width: 32px;
+ height: 32px;
+ background-image: url('../../../public/img/hdSelectNo.svg');
+ text-align: center;
+ cursor: pointer;
+}
+span.yes {
+ display: block;
+ width: 32px;
+ height: 32px;
+ background-image: url('../../../public/img/hdSelectYesActive.svg');
+ text-align: center;
+ cursor: pointer;
+}
+
+tr + table {
+ width: 100%;
+ display: block;
+ max-width: 100%;
+}
+
+.hidden {
+ display: none;
 }
