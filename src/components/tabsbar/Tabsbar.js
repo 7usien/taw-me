@@ -7,7 +7,7 @@ export default function Tabsbar() {
   <div className='tabsbar'>
    <div className='tabsbar__container'>
     <div className='tabsbar__heading'>
-     <NavLink exact to='/'>
+     <NavLink to='/'>
       Registeration
       <span>
        <i className='material-icons'>more_vert</i>
